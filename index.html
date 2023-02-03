@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    <!--Barra di navigazione-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand ms-3" style="font-weight:800;">Pizzeria Da Mario</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-items">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-items">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item p-3 p-md-0 ms-1" style="font-weight:700;">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item p-3 p-md-0 ms-1" style="font-weight:700;">
+                    <a href="#" class="nav-link">Menù</a>
+                </li>
+                <li class="nav-item p-3 p-md-0 ms-1" style="font-weight:700;">
+                    <a href="#" class="nav-link">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Primo pezzo del sito-->
+    <section class="container-fluid bg-dark bg-gradient ">
+        <div class="row">
+            <div class="col-lg-3 p-5">
+                <h2 class="text-warning">
+                    Chi sono
+                </h2>
+                <h4 class="text-light">
+                    Ciao sono Mario. 
+                    La mia passione per la pizza non conosce limiti,
+                    per me quello che conta è la qualità dei prodotti
+                    e la passione che metto nel cucinare ogni singola
+                    pizza che servo ai miei clienti.
+                </h4>
+            </div>
+            <div class="d-flex flex-row justify-content-lg-end justify-content-md-center col-lg-9 p-5">
+                <img src="chef.jpg" alt="" class="img-fluid rounded border-white" style="box-shadow: 0.35em 0.35em #ffffff;">
+            </div>
+        </div>
+    </section>
+
+    <!--Secondo pezzo del sito-->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="p-0 col-12 col-lg-4 col-xl-6">
+                    <div class="container-fluid bg-dark d-flex flex-column align-self-stretch p-5 pt-0" style="height:100%">
+                        <h2 class="text-warning mt-2">Alcune creazioni</h2>
+                        <h4 class="text-white d-md-block d-none">
+                            Queste sono alcune delle creazioni per le
+                            quali vado fiero. Sono delle nuove pizze inventate
+                            da me, amate dai miei clienti.
+                        </h4>
+                    </div>
+                </div>
+                <div class="p-0 col-12 col-lg-8 col-xl-6">
+                    <div class="container-fluid bg-dark">
+                        <div class="d-flex flex-row justify-content-around row row-cols-1 row-cols-md-2" style="text-align: center;">
+                            <div class="col d-flex flex-column align-items-center p-4">
+                                <div class="card w-75" style="height:100%;">
+                                    <img src="pizza_kiwi.jpg" class="card-img-top" alt="">
+                                    <div class="card-header">
+                                        <h2>Pizza Kiwi</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>
+                                                Un'ottima pizza margherita dalla nota 
+                                                acida condita con fette di kiwi. Per
+                                                palati fini e delicati alla ricerca di
+                                                sapori nuovi e combinazioni interessanti.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex flex-column align-items-center p-4">
+                                <div class="card w-75" style="height:100%;">
+                                    <img src="pizza_banano.jpg" class="card-img-top" alt="">
+                                    <div class="card-header">
+                                        <h2>Pizza Banano</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>
+                                                Cosa vuoi di più? una fusione fra
+                                                un banano e una pizza multi-gusto.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex flex-column align-items-center p-4">
+                                <div class="card w-75" style="height:100%;">
+                                    <img src="pizza_routa.jpg" class="card-img-top" alt="">
+                                    <div class="card-header">
+                                        <h2>Pizza Da Asporto</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>
+                                                Ahah, l'hai capita? una pizza multi-gusto
+                                                pronta ad essere portata via.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section>
+            <div class="d-flex flex-column flex-md-row justify-content-around align-content-center bg-light p-2 gap-2">
+                <a href="#" class="link-light bg-dark p-3 rounded" style="text-decoration: none;">Instagram</a>
+                <a href="#" class="link-light bg-dark p-3 rounded" style="text-decoration: none;">Youtube</a>
+                <a href="#" class="link-light bg-dark p-3 rounded" style="text-decoration: none;">Facebook</a>
+            </div>
+    </section>
+</body>
+</html>
